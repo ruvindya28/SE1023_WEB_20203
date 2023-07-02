@@ -1,0 +1,26 @@
+
+<html>
+    
+    <head>
+       
+        <title>Document</title>
+    
+        <script>
+            function x()
+            {
+                document.write("Area is:"+area);
+            }
+        </script>
+    </head>
+    
+    <body>
+        <script>
+             var r=parseFloat(window.prompt("Enter radius:"));
+           document.write("Area: ",(Math.PI * r * r).toFixed(2));
+            x();
+        </script>
+    </body>
+        </html>
+         
+
+       
